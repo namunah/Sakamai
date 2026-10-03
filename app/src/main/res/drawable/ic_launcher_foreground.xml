@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer delicate browser navigation ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#55FFFFFF"
+        android:strokeWidth="2.5"
+        android:pathData="M54,28 A26,26 0 1,1 53.9,28 Z" />
+    
+    <!-- Speed tick marks -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#8838BDF8"
+        android:strokeWidth="2"
+        android:pathData="M54,22 L54,26 M54,82 L54,86 M22,54 L26,54 M82,54 L86,54" />
+
+    <!-- Stylized dynamic V-wing / lightning navigation compass needle -->
+    <!-- Left wing of V (White) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34 L36,70 L54,61 Z" />
+
+    <!-- Right wing of V (Cyan vibrant highlight) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M54,34 L54,61 L72,70 Z" />
+
+    <!-- Center core pivot pin -->
+    <path
+        android:fillColor="#0EA5E9"
+        android:pathData="M54,54m-4,0a4,4 0 1,0 8,0a4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0" />
+</vector>
